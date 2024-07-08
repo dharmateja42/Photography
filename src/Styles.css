@@ -115,4 +115,11 @@ body {
     .photo-gallery img:hover {
     transform: scale(1.1);
     }
+    .imgs{
+        height: 150px;
+        align-items: center;
+        border-radius: 4px;
+        display: flex;
+        width: 30%;
+    }
     

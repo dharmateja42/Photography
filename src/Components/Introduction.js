@@ -1,5 +1,13 @@
 import React from "react";
 import Monkey from "../images/monkey1.jpg";
+import img1 from "../images/img1.png";
+import img2 from "../images/img2.png";
+import img3 from "../images/img3.png";
+import img4 from "../images/img4.jpg";
+
+
+
+//import "../style/imgs.css";
 
 const Introduction = () => {
 	return (
@@ -58,6 +66,10 @@ const Introduction = () => {
 						</button>
 					</div>
 				</div>
+				<img src={img1} className="imgs"/><br />
+				<img src={img2} className="imgs"/><br />
+				<img src={img3} className="imgs"/><br />
+				<img src={img4} className="imgs"/><br />
 			</div>
 		</>
 	);

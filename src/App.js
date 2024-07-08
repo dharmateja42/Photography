@@ -8,6 +8,7 @@ import PhotoGallery from './Components/PhotoGallery';
 import ContactForm from './Components/ContactForm';
 // import './App.css';
 import './Styles.css';
+//import QuiltedImageList from './Components/QuiltedImageList';
 
 function App() {
   return (
