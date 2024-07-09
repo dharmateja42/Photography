@@ -115,11 +115,53 @@ body {
     .photo-gallery img:hover {
     transform: scale(1.1);
     }
-    .imgs{
-        height: 150px;
-        align-items: center;
-        border-radius: 4px;
+    .img-container {
         display: flex;
-        width: 30%;
-    }
-    
+        flex-wrap: wrap;
+        gap: 20px; /* Adjust the gap between images */
+      }
+      
+      .imgs {
+        border: 2px solid #000; /* Change the border color and size as needed */
+        padding: 5px; /* Optional: add padding inside the border */
+        width: 300px; /* Set the desired width */
+        height: 300px; /* Set the desired height */
+        object-fit: cover; /* Ensure the image covers the area without distortion */
+        border-radius: 5px;
+        transition: transform 0.5s ease-in-out;
+      }
+      .imgs:hover {
+        transform: scale(0.8);
+      }
+      /* Add these styles to center the footer and social media icons */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #f1f1f1; /* Optional: background color for the footer */
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-media a {
+    color: #000; /* Change to your preferred icon color */
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #42a3d4; /* Optional: color on hover */
+  }
+  .copyright {
+    font-size: 14px;
+    color: #333;
+  }
+  .bottom{
+    text-shadow: #000;
+    color: black;
+    size: 4cqmax;
+  }

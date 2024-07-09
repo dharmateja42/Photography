@@ -7,7 +7,7 @@ function ContactForm() {
     <div className="contact-form">
       <form className="contact-form__form">
         <div className="contact-form__head">
-          <h1 className="contact-form__title">Contact Form</h1>
+          <h1 className="contact-form__title"><u>Contact Form</u></h1><br />
           <p className="contact-form__description">Please fill all the texts in the fields</p>
         </div>
         <label htmlFor="fullName" className="contact-form__label">Your Name:</label>
