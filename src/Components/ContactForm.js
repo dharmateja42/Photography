@@ -5,7 +5,7 @@ import '../style/Contactform.css'
 function ContactForm() {
   return (
     <div className="contact-form">
-      <form className="contact-form__form">
+      <form className="contact-form__form" action='https://formspree.io/f/xblrjvnd' method='post' >
         <div className="contact-form__head">
           <h1 className="contact-form__title"><u>Contact Form</u></h1><br />
           <p className="contact-form__description">Please fill all the texts in the fields</p>
