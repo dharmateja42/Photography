@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import '../../src/Styles.css';
 
 const PhotoGallery = () => {
-	// Assuming photos is an array of image URLs
 	const photos = [
 'https://media.geeksforgeeks.org/wp-content/uploads/20240122102942/1a-(2).jpg',
 'https://media.geeksforgeeks.org/wp-content/uploads/20240122102942/2b.jpg',
@@ -24,6 +23,7 @@ const PhotoGallery = () => {
 							alt={`Photo ${index + 1}`} />
 					</Link>
 				))}
+
 		</div>
 	);
 };

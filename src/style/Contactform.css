@@ -59,12 +59,12 @@
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #cfad17;
+  background-color: #333330;
   color: white;
   font-size: 16px;
   cursor: pointer;
 }
 
 .contact-form__button:hover {
-  background-color: #34b452;
+  background-color: #060807;
 }

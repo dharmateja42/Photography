@@ -6,9 +6,9 @@ import Navbar from './Components/Navbar';
 import Introduction from './Components/Introduction';
 import PhotoGallery from './Components/PhotoGallery';
 import ContactForm from './Components/ContactForm';
+import MyBio from './Components/MyBio';
 // import './App.css';
 import './Styles.css';
-//import QuiltedImageList from './Components/QuiltedImageList';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <Route path="/" element={<Introduction />} />
           <Route path="/gallery" element={<PhotoGallery />} />
           <Route path="/contact" element={<ContactForm />} />
+          <Route path="/mybio" element={<MyBio />} />
         </Routes>
     </Router>
   );

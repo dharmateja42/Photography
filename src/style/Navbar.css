@@ -1,7 +1,7 @@
 /* src/components/Navbar.css */
 
 .navbar-container {
-	background-color: #fbb615;
+	background-color: #70ccf4;
 	color: #fff;
 	padding: 10px 20px;
 	display: flex;
@@ -32,6 +32,6 @@
 }
 
 .nav-links a:hover {
-	color: #ffd700;
+	color: #050504;
 	/* Change the color on hover as desired */
 }

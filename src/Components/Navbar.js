@@ -25,7 +25,11 @@ const Navbar = () => {
 					Contact Me
 					</Link>
 				</li>
-				{/* Add more navigation items as needed */}
+				<li>
+					<Link to="/mybio">
+					MyBio
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	);

@@ -29,7 +29,7 @@ body {
     }
     
     .explore-button {
-    background-color: #facc12;
+    background-color: #71d9eb;
     color: #fff;
     padding: 10px 20px;
     font-size: 1.2em;
@@ -40,7 +40,7 @@ body {
     }
     
     .explore-button:hover {
-    background-color: #ffa600;
+    background-color: #0e0d0d;
     }
     
     .buy-plans {
@@ -82,7 +82,7 @@ body {
     }
     
     .subscribe-button {
-    background-color: #fcd61a;
+    background-color: #111110;
     color: #fff;
     padding: 8px 15px;
     font-size: 1em;
@@ -118,29 +118,29 @@ body {
     .img-container {
         display: flex;
         flex-wrap: wrap;
-        gap: 20px; /* Adjust the gap between images */
+        gap: 20px;
       }
       
       .imgs {
-        border: 2px solid #000; /* Change the border color and size as needed */
-        padding: 5px; /* Optional: add padding inside the border */
-        width: 300px; /* Set the desired width */
-        height: 300px; /* Set the desired height */
-        object-fit: cover; /* Ensure the image covers the area without distortion */
+        border: 2px solid #000;
+        padding: 5px;
+        width: 300px; 
+        height: 300px;
+        object-fit: cover; 
         border-radius: 5px;
         transition: transform 0.5s ease-in-out;
       }
       .imgs:hover {
         transform: scale(0.8);
       }
-      /* Add these styles to center the footer and social media icons */
+     
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: #f1f1f1; /* Optional: background color for the footer */
+    background-color: #f1f1f1; 
   }
   
   .social-media {
@@ -149,12 +149,12 @@ body {
   }
   
   .social-media a {
-    color: #000; /* Change to your preferred icon color */
+    color: #000; 
     text-decoration: none;
   }
   
   .social-media a:hover {
-    color: #42a3d4; /* Optional: color on hover */
+    color: #42a3d4; 
   }
   .copyright {
     font-size: 14px;
@@ -164,4 +164,11 @@ body {
     text-shadow: #000;
     color: black;
     size: 4cqmax;
+  }
+  .auth-image
+  {
+    flex: 0 1 calc(48% - 10px);
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
   }
